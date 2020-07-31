@@ -1,0 +1,1217 @@
+2020-07-09 03:15:41 Thu , ERROR , log.py log_response line 228 , Internal Server Error: /getData
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 31, in getData
+    if request.websocket.count_messages() > 0:
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 58, in count_messages
+    self._get_new_messages()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 47, in _get_new_messages
+    opcode, data = self.protocol.read()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 52, in read
+    return self.read_data()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 117, in read_data
+    raise EOFError("EOF when reading a line, websocket has been closed")
+EOFError: EOF when reading a line, websocket has been closed
+2020-07-09 05:46:31 Thu , ERROR , log.py log_response line 228 , Internal Server Error: /getData
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 31, in getData
+    if request.websocket.count_messages() > 0:
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 58, in count_messages
+    self._get_new_messages()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 47, in _get_new_messages
+    opcode, data = self.protocol.read()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 52, in read
+    return self.read_data()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 117, in read_data
+    raise EOFError("EOF when reading a line, websocket has been closed")
+EOFError: EOF when reading a line, websocket has been closed
+2020-07-09 05:46:34 Thu , ERROR , log.py log_response line 228 , Internal Server Error: /getData
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 31, in getData
+    if request.websocket.count_messages() > 0:
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 58, in count_messages
+    self._get_new_messages()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 47, in _get_new_messages
+    opcode, data = self.protocol.read()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 52, in read
+    return self.read_data()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 117, in read_data
+    raise EOFError("EOF when reading a line, websocket has been closed")
+EOFError: EOF when reading a line, websocket has been closed
+2020-07-09 05:46:37 Thu , ERROR , log.py log_response line 228 , Internal Server Error: /getData
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 31, in getData
+    if request.websocket.count_messages() > 0:
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 58, in count_messages
+    self._get_new_messages()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 47, in _get_new_messages
+    opcode, data = self.protocol.read()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 52, in read
+    return self.read_data()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 117, in read_data
+    raise EOFError("EOF when reading a line, websocket has been closed")
+EOFError: EOF when reading a line, websocket has been closed
+2020-07-09 05:46:40 Thu , ERROR , log.py log_response line 228 , Internal Server Error: /getData
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 31, in getData
+    if request.websocket.count_messages() > 0:
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 58, in count_messages
+    self._get_new_messages()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 47, in _get_new_messages
+    opcode, data = self.protocol.read()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 52, in read
+    return self.read_data()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 117, in read_data
+    raise EOFError("EOF when reading a line, websocket has been closed")
+EOFError: EOF when reading a line, websocket has been closed
+2020-07-09 05:46:44 Thu , ERROR , log.py log_response line 228 , Internal Server Error: /getData
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 31, in getData
+    if request.websocket.count_messages() > 0:
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 58, in count_messages
+    self._get_new_messages()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 47, in _get_new_messages
+    opcode, data = self.protocol.read()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 52, in read
+    return self.read_data()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 117, in read_data
+    raise EOFError("EOF when reading a line, websocket has been closed")
+EOFError: EOF when reading a line, websocket has been closed
+2020-07-09 05:46:47 Thu , ERROR , log.py log_response line 228 , Internal Server Error: /getData
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 31, in getData
+    if request.websocket.count_messages() > 0:
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 58, in count_messages
+    self._get_new_messages()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 47, in _get_new_messages
+    opcode, data = self.protocol.read()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 52, in read
+    return self.read_data()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 117, in read_data
+    raise EOFError("EOF when reading a line, websocket has been closed")
+EOFError: EOF when reading a line, websocket has been closed
+2020-07-09 05:52:37 Thu , ERROR , log.py log_response line 228 , Internal Server Error: /getData
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 31, in getData
+    if request.websocket.count_messages() > 0:
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 58, in count_messages
+    self._get_new_messages()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 47, in _get_new_messages
+    opcode, data = self.protocol.read()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 52, in read
+    return self.read_data()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 117, in read_data
+    raise EOFError("EOF when reading a line, websocket has been closed")
+EOFError: EOF when reading a line, websocket has been closed
+2020-07-09 05:52:40 Thu , ERROR , log.py log_response line 228 , Internal Server Error: /getData
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 31, in getData
+    if request.websocket.count_messages() > 0:
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 58, in count_messages
+    self._get_new_messages()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 47, in _get_new_messages
+    opcode, data = self.protocol.read()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 52, in read
+    return self.read_data()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 117, in read_data
+    raise EOFError("EOF when reading a line, websocket has been closed")
+EOFError: EOF when reading a line, websocket has been closed
+2020-07-09 05:52:44 Thu , ERROR , log.py log_response line 228 , Internal Server Error: /getData
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 31, in getData
+    if request.websocket.count_messages() > 0:
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 58, in count_messages
+    self._get_new_messages()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 47, in _get_new_messages
+    opcode, data = self.protocol.read()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 52, in read
+    return self.read_data()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 117, in read_data
+    raise EOFError("EOF when reading a line, websocket has been closed")
+EOFError: EOF when reading a line, websocket has been closed
+2020-07-09 05:52:47 Thu , ERROR , log.py log_response line 228 , Internal Server Error: /getData
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 31, in getData
+    if request.websocket.count_messages() > 0:
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 58, in count_messages
+    self._get_new_messages()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 47, in _get_new_messages
+    opcode, data = self.protocol.read()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 52, in read
+    return self.read_data()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 117, in read_data
+    raise EOFError("EOF when reading a line, websocket has been closed")
+EOFError: EOF when reading a line, websocket has been closed
+2020-07-09 05:52:50 Thu , ERROR , log.py log_response line 228 , Internal Server Error: /getData
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 31, in getData
+    if request.websocket.count_messages() > 0:
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 58, in count_messages
+    self._get_new_messages()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 47, in _get_new_messages
+    opcode, data = self.protocol.read()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 52, in read
+    return self.read_data()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 117, in read_data
+    raise EOFError("EOF when reading a line, websocket has been closed")
+EOFError: EOF when reading a line, websocket has been closed
+2020-07-09 05:52:54 Thu , ERROR , log.py log_response line 228 , Internal Server Error: /getData
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 31, in getData
+    if request.websocket.count_messages() > 0:
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 58, in count_messages
+    self._get_new_messages()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 47, in _get_new_messages
+    opcode, data = self.protocol.read()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 52, in read
+    return self.read_data()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 117, in read_data
+    raise EOFError("EOF when reading a line, websocket has been closed")
+EOFError: EOF when reading a line, websocket has been closed
+2020-07-09 05:52:57 Thu , ERROR , log.py log_response line 228 , Internal Server Error: /getData
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 31, in getData
+    if request.websocket.count_messages() > 0:
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 58, in count_messages
+    self._get_new_messages()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 47, in _get_new_messages
+    opcode, data = self.protocol.read()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 52, in read
+    return self.read_data()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 117, in read_data
+    raise EOFError("EOF when reading a line, websocket has been closed")
+EOFError: EOF when reading a line, websocket has been closed
+2020-07-09 05:53:00 Thu , ERROR , log.py log_response line 228 , Internal Server Error: /getData
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 31, in getData
+    if request.websocket.count_messages() > 0:
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 58, in count_messages
+    self._get_new_messages()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 47, in _get_new_messages
+    opcode, data = self.protocol.read()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 52, in read
+    return self.read_data()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 117, in read_data
+    raise EOFError("EOF when reading a line, websocket has been closed")
+EOFError: EOF when reading a line, websocket has been closed
+2020-07-09 05:53:04 Thu , ERROR , log.py log_response line 228 , Internal Server Error: /getData
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 31, in getData
+    if request.websocket.count_messages() > 0:
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 58, in count_messages
+    self._get_new_messages()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 47, in _get_new_messages
+    opcode, data = self.protocol.read()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 52, in read
+    return self.read_data()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 117, in read_data
+    raise EOFError("EOF when reading a line, websocket has been closed")
+EOFError: EOF when reading a line, websocket has been closed
+2020-07-09 05:53:07 Thu , ERROR , log.py log_response line 228 , Internal Server Error: /getData
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 31, in getData
+    if request.websocket.count_messages() > 0:
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 58, in count_messages
+    self._get_new_messages()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 47, in _get_new_messages
+    opcode, data = self.protocol.read()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 52, in read
+    return self.read_data()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 117, in read_data
+    raise EOFError("EOF when reading a line, websocket has been closed")
+EOFError: EOF when reading a line, websocket has been closed
+2020-07-09 05:53:10 Thu , ERROR , log.py log_response line 228 , Internal Server Error: /getData
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 31, in getData
+    if request.websocket.count_messages() > 0:
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 58, in count_messages
+    self._get_new_messages()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 47, in _get_new_messages
+    opcode, data = self.protocol.read()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 52, in read
+    return self.read_data()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 117, in read_data
+    raise EOFError("EOF when reading a line, websocket has been closed")
+EOFError: EOF when reading a line, websocket has been closed
+2020-07-09 05:53:14 Thu , ERROR , log.py log_response line 228 , Internal Server Error: /getData
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 31, in getData
+    if request.websocket.count_messages() > 0:
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 58, in count_messages
+    self._get_new_messages()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 47, in _get_new_messages
+    opcode, data = self.protocol.read()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 52, in read
+    return self.read_data()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 117, in read_data
+    raise EOFError("EOF when reading a line, websocket has been closed")
+EOFError: EOF when reading a line, websocket has been closed
+2020-07-09 05:53:17 Thu , ERROR , log.py log_response line 228 , Internal Server Error: /getData
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 31, in getData
+    if request.websocket.count_messages() > 0:
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 58, in count_messages
+    self._get_new_messages()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 47, in _get_new_messages
+    opcode, data = self.protocol.read()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 52, in read
+    return self.read_data()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 117, in read_data
+    raise EOFError("EOF when reading a line, websocket has been closed")
+EOFError: EOF when reading a line, websocket has been closed
+2020-07-09 05:53:20 Thu , ERROR , log.py log_response line 228 , Internal Server Error: /getData
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 31, in getData
+    if request.websocket.count_messages() > 0:
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 58, in count_messages
+    self._get_new_messages()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 47, in _get_new_messages
+    opcode, data = self.protocol.read()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 52, in read
+    return self.read_data()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 117, in read_data
+    raise EOFError("EOF when reading a line, websocket has been closed")
+EOFError: EOF when reading a line, websocket has been closed
+2020-07-09 05:53:24 Thu , ERROR , log.py log_response line 228 , Internal Server Error: /getData
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 31, in getData
+    if request.websocket.count_messages() > 0:
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 58, in count_messages
+    self._get_new_messages()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 47, in _get_new_messages
+    opcode, data = self.protocol.read()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 52, in read
+    return self.read_data()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 117, in read_data
+    raise EOFError("EOF when reading a line, websocket has been closed")
+EOFError: EOF when reading a line, websocket has been closed
+2020-07-09 05:53:27 Thu , ERROR , log.py log_response line 228 , Internal Server Error: /getData
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 31, in getData
+    if request.websocket.count_messages() > 0:
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 58, in count_messages
+    self._get_new_messages()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 47, in _get_new_messages
+    opcode, data = self.protocol.read()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 52, in read
+    return self.read_data()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 117, in read_data
+    raise EOFError("EOF when reading a line, websocket has been closed")
+EOFError: EOF when reading a line, websocket has been closed
+2020-07-09 05:53:30 Thu , ERROR , log.py log_response line 228 , Internal Server Error: /getData
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 31, in getData
+    if request.websocket.count_messages() > 0:
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 58, in count_messages
+    self._get_new_messages()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 47, in _get_new_messages
+    opcode, data = self.protocol.read()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 52, in read
+    return self.read_data()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 117, in read_data
+    raise EOFError("EOF when reading a line, websocket has been closed")
+EOFError: EOF when reading a line, websocket has been closed
+2020-07-09 05:53:34 Thu , ERROR , log.py log_response line 228 , Internal Server Error: /getData
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 31, in getData
+    if request.websocket.count_messages() > 0:
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 58, in count_messages
+    self._get_new_messages()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 47, in _get_new_messages
+    opcode, data = self.protocol.read()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 52, in read
+    return self.read_data()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 117, in read_data
+    raise EOFError("EOF when reading a line, websocket has been closed")
+EOFError: EOF when reading a line, websocket has been closed
+2020-07-09 05:53:37 Thu , ERROR , log.py log_response line 228 , Internal Server Error: /getData
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 31, in getData
+    if request.websocket.count_messages() > 0:
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 58, in count_messages
+    self._get_new_messages()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 47, in _get_new_messages
+    opcode, data = self.protocol.read()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 52, in read
+    return self.read_data()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 117, in read_data
+    raise EOFError("EOF when reading a line, websocket has been closed")
+EOFError: EOF when reading a line, websocket has been closed
+2020-07-09 05:53:40 Thu , ERROR , log.py log_response line 228 , Internal Server Error: /getData
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 31, in getData
+    if request.websocket.count_messages() > 0:
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 58, in count_messages
+    self._get_new_messages()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 47, in _get_new_messages
+    opcode, data = self.protocol.read()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 52, in read
+    return self.read_data()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 117, in read_data
+    raise EOFError("EOF when reading a line, websocket has been closed")
+EOFError: EOF when reading a line, websocket has been closed
+2020-07-09 05:53:44 Thu , ERROR , log.py log_response line 228 , Internal Server Error: /getData
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 31, in getData
+    if request.websocket.count_messages() > 0:
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 58, in count_messages
+    self._get_new_messages()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 47, in _get_new_messages
+    opcode, data = self.protocol.read()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 52, in read
+    return self.read_data()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 117, in read_data
+    raise EOFError("EOF when reading a line, websocket has been closed")
+EOFError: EOF when reading a line, websocket has been closed
+2020-07-09 05:53:47 Thu , ERROR , log.py log_response line 228 , Internal Server Error: /getData
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 31, in getData
+    if request.websocket.count_messages() > 0:
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 58, in count_messages
+    self._get_new_messages()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 47, in _get_new_messages
+    opcode, data = self.protocol.read()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 52, in read
+    return self.read_data()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 117, in read_data
+    raise EOFError("EOF when reading a line, websocket has been closed")
+EOFError: EOF when reading a line, websocket has been closed
+2020-07-09 05:53:49 Thu , ERROR , log.py log_response line 228 , Internal Server Error: /getData
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 31, in getData
+    if request.websocket.count_messages() > 0:
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 58, in count_messages
+    self._get_new_messages()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 47, in _get_new_messages
+    opcode, data = self.protocol.read()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 52, in read
+    return self.read_data()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 117, in read_data
+    raise EOFError("EOF when reading a line, websocket has been closed")
+EOFError: EOF when reading a line, websocket has been closed
+2020-07-09 05:54:09 Thu , ERROR , log.py log_response line 228 , Internal Server Error: /getData
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 31, in getData
+    if request.websocket.count_messages() > 0:
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 58, in count_messages
+    self._get_new_messages()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/websocket.py", line 47, in _get_new_messages
+    opcode, data = self.protocol.read()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 52, in read
+    return self.read_data()
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/backends/default/protocols.py", line 117, in read_data
+    raise EOFError("EOF when reading a line, websocket has been closed")
+EOFError: EOF when reading a line, websocket has been closed
+2020-07-09 06:07:50 Thu , ERROR , log.py log_response line 228 , Internal Server Error: /getData
+Traceback (most recent call last):
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 56, in getData
+    data = json.loads(data)
+  File "/usr/local/python3/lib/python3.7/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 71, in getData
+    request.websocket.shutdown(2)
+AttributeError: 'DefaultWebSocket' object has no attribute 'shutdown'
+2020-07-09 06:07:50 Thu , ERROR , log.py log_response line 228 , Internal Server Error: /getData
+Traceback (most recent call last):
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 56, in getData
+    data = json.loads(data)
+  File "/usr/local/python3/lib/python3.7/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 71, in getData
+    request.websocket.shutdown(2)
+AttributeError: 'DefaultWebSocket' object has no attribute 'shutdown'
+2020-07-09 06:07:51 Thu , ERROR , log.py log_response line 228 , Internal Server Error: /getData
+Traceback (most recent call last):
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 56, in getData
+    data = json.loads(data)
+  File "/usr/local/python3/lib/python3.7/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 71, in getData
+    request.websocket.shutdown(2)
+AttributeError: 'DefaultWebSocket' object has no attribute 'shutdown'
+2020-07-09 06:07:51 Thu , ERROR , log.py log_response line 228 , Internal Server Error: /getData
+Traceback (most recent call last):
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 56, in getData
+    data = json.loads(data)
+  File "/usr/local/python3/lib/python3.7/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 71, in getData
+    request.websocket.shutdown(2)
+AttributeError: 'DefaultWebSocket' object has no attribute 'shutdown'
+2020-07-09 06:07:51 Thu , ERROR , log.py log_response line 228 , Internal Server Error: /getData
+Traceback (most recent call last):
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 56, in getData
+    data = json.loads(data)
+  File "/usr/local/python3/lib/python3.7/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 71, in getData
+    request.websocket.shutdown(2)
+AttributeError: 'DefaultWebSocket' object has no attribute 'shutdown'
+2020-07-09 06:07:51 Thu , ERROR , log.py log_response line 228 , Internal Server Error: /getData
+Traceback (most recent call last):
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 56, in getData
+    data = json.loads(data)
+  File "/usr/local/python3/lib/python3.7/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 71, in getData
+    request.websocket.shutdown(2)
+AttributeError: 'DefaultWebSocket' object has no attribute 'shutdown'
+2020-07-09 06:07:51 Thu , ERROR , log.py log_response line 228 , Internal Server Error: /getData
+Traceback (most recent call last):
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 56, in getData
+    data = json.loads(data)
+  File "/usr/local/python3/lib/python3.7/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 71, in getData
+    request.websocket.shutdown(2)
+AttributeError: 'DefaultWebSocket' object has no attribute 'shutdown'
+2020-07-09 06:07:52 Thu , ERROR , log.py log_response line 228 , Internal Server Error: /getData
+Traceback (most recent call last):
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 56, in getData
+    data = json.loads(data)
+  File "/usr/local/python3/lib/python3.7/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 71, in getData
+    request.websocket.shutdown(2)
+AttributeError: 'DefaultWebSocket' object has no attribute 'shutdown'
+2020-07-09 06:07:54 Thu , ERROR , log.py log_response line 228 , Internal Server Error: /getData
+Traceback (most recent call last):
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 56, in getData
+    data = json.loads(data)
+  File "/usr/local/python3/lib/python3.7/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 71, in getData
+    request.websocket.shutdown(2)
+AttributeError: 'DefaultWebSocket' object has no attribute 'shutdown'
+2020-07-09 06:07:54 Thu , ERROR , log.py log_response line 228 , Internal Server Error: /getData
+Traceback (most recent call last):
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 56, in getData
+    data = json.loads(data)
+  File "/usr/local/python3/lib/python3.7/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 71, in getData
+    request.websocket.shutdown(2)
+AttributeError: 'DefaultWebSocket' object has no attribute 'shutdown'
+2020-07-09 06:07:54 Thu , ERROR , log.py log_response line 228 , Internal Server Error: /getData
+Traceback (most recent call last):
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 56, in getData
+    data = json.loads(data)
+  File "/usr/local/python3/lib/python3.7/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 71, in getData
+    request.websocket.shutdown(2)
+AttributeError: 'DefaultWebSocket' object has no attribute 'shutdown'
+2020-07-09 06:07:54 Thu , ERROR , log.py log_response line 228 , Internal Server Error: /getData
+Traceback (most recent call last):
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 56, in getData
+    data = json.loads(data)
+  File "/usr/local/python3/lib/python3.7/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 71, in getData
+    request.websocket.shutdown(2)
+AttributeError: 'DefaultWebSocket' object has no attribute 'shutdown'
+2020-07-09 06:07:55 Thu , ERROR , log.py log_response line 228 , Internal Server Error: /getData
+Traceback (most recent call last):
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 56, in getData
+    data = json.loads(data)
+  File "/usr/local/python3/lib/python3.7/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 71, in getData
+    request.websocket.shutdown(2)
+AttributeError: 'DefaultWebSocket' object has no attribute 'shutdown'
+2020-07-09 06:07:55 Thu , ERROR , log.py log_response line 228 , Internal Server Error: /getData
+Traceback (most recent call last):
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 56, in getData
+    data = json.loads(data)
+  File "/usr/local/python3/lib/python3.7/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 71, in getData
+    request.websocket.shutdown(2)
+AttributeError: 'DefaultWebSocket' object has no attribute 'shutdown'
+2020-07-09 06:07:55 Thu , ERROR , log.py log_response line 228 , Internal Server Error: /getData
+Traceback (most recent call last):
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 56, in getData
+    data = json.loads(data)
+  File "/usr/local/python3/lib/python3.7/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 71, in getData
+    request.websocket.shutdown(2)
+AttributeError: 'DefaultWebSocket' object has no attribute 'shutdown'
+2020-07-09 06:07:55 Thu , ERROR , log.py log_response line 228 , Internal Server Error: /getData
+Traceback (most recent call last):
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 56, in getData
+    data = json.loads(data)
+  File "/usr/local/python3/lib/python3.7/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 71, in getData
+    request.websocket.shutdown(2)
+AttributeError: 'DefaultWebSocket' object has no attribute 'shutdown'
+2020-07-09 06:07:55 Thu , ERROR , log.py log_response line 228 , Internal Server Error: /getData
+Traceback (most recent call last):
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 56, in getData
+    data = json.loads(data)
+  File "/usr/local/python3/lib/python3.7/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 71, in getData
+    request.websocket.shutdown(2)
+AttributeError: 'DefaultWebSocket' object has no attribute 'shutdown'
+2020-07-09 06:07:55 Thu , ERROR , log.py log_response line 228 , Internal Server Error: /getData
+Traceback (most recent call last):
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 56, in getData
+    data = json.loads(data)
+  File "/usr/local/python3/lib/python3.7/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 71, in getData
+    request.websocket.shutdown(2)
+AttributeError: 'DefaultWebSocket' object has no attribute 'shutdown'
+2020-07-09 06:07:56 Thu , ERROR , log.py log_response line 228 , Internal Server Error: /getData
+Traceback (most recent call last):
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 56, in getData
+    data = json.loads(data)
+  File "/usr/local/python3/lib/python3.7/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 71, in getData
+    request.websocket.shutdown(2)
+AttributeError: 'DefaultWebSocket' object has no attribute 'shutdown'
+2020-07-09 06:07:56 Thu , ERROR , log.py log_response line 228 , Internal Server Error: /getData
+Traceback (most recent call last):
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 56, in getData
+    data = json.loads(data)
+  File "/usr/local/python3/lib/python3.7/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 71, in getData
+    request.websocket.shutdown(2)
+AttributeError: 'DefaultWebSocket' object has no attribute 'shutdown'
+2020-07-09 06:07:56 Thu , ERROR , log.py log_response line 228 , Internal Server Error: /getData
+Traceback (most recent call last):
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 56, in getData
+    data = json.loads(data)
+  File "/usr/local/python3/lib/python3.7/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.7/site-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/ht/ht/data/lll/yishengWS/myapp/views.py", line 71, in getData
+    request.websocket.shutdown(2)
+AttributeError: 'DefaultWebSocket' object has no attribute 'shutdown'

@@ -1,0 +1,40 @@
+nohup: ignoring input
+handicap:cebar:trxusdt:1min <socket.socket fd=58, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('172.31.142.115', 999), raddr=('47.75.209.208', 59346)>
+handicap:cebar:cwzusdt:1min <socket.socket fd=60, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('172.31.142.115', 999), raddr=('47.75.209.208', 59350)>
+sub:ltcbtc:1min <socket.socket fd=40, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('172.31.142.115', 999), raddr=('40.74.91.183', 44824)>
+sub:etcbtc:1min <socket.socket fd=49, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('172.31.142.115', 999), raddr=('40.74.91.183', 44820)>
+sub:eoseth:1min <socket.socket fd=45, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('172.31.142.115', 999), raddr=('40.74.91.183', 44816)>
+sub:eosbtc:1min <socket.socket fd=44, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('172.31.142.115', 999), raddr=('40.74.91.183', 44832)>
+sub:ethbtc:1min <socket.socket fd=46, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('172.31.142.115', 999), raddr=('40.74.91.183', 44826)>
+sub:bchbtc:1min <socket.socket fd=48, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('172.31.142.115', 999), raddr=('40.74.91.183', 44830)>
+handicap:cebar:trxusdt:1min <socket.socket fd=58, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('172.31.142.115', 999), raddr=('47.75.209.208', 59346)>
+handicap:cebar:cwzusdt:1min <socket.socket fd=60, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('172.31.142.115', 999), raddr=('47.75.209.208', 59350)>
+sub:ltcbtc:1min <socket.socket fd=40, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('172.31.142.115', 999), raddr=('40.74.91.183', 44824)>
+sub:etcbtc:1min <socket.socket fd=49, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('172.31.142.115', 999), raddr=('40.74.91.183', 44820)>
+sub:eoseth:1min <socket.socket fd=45, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('172.31.142.115', 999), raddr=('40.74.91.183', 44816)>
+sub:eosbtc:1min <socket.socket fd=44, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('172.31.142.115', 999), raddr=('40.74.91.183', 44832)>
+sub:ethbtc:1min <socket.socket fd=46, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('172.31.142.115', 999), raddr=('40.74.91.183', 44826)>
+sub:bchbtc:1min <socket.socket fd=48, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('172.31.142.115', 999), raddr=('40.74.91.183', 44830)>
+Traceback (most recent call last):
+  File "/ht/ht/data/999/htser/socketHt/serHt.py", line 69, in <module>
+    server.serve_forever()
+  File "/usr/local/python3/lib/python3.7/socketserver.py", line 232, in serve_forever
+    ready = selector.select(poll_interval)
+  File "/usr/local/python3/lib/python3.7/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt
+sub:etcbtc:1min <socket.socket fd=72, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('172.31.142.115', 999), raddr=('40.74.91.183', 44928)>
+sub:bchbtc:1min <socket.socket fd=75, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('172.31.142.115', 999), raddr=('40.74.91.183', 44930)>
+sub:eoseth:1min <socket.socket fd=73, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('172.31.142.115', 999), raddr=('40.74.91.183', 44932)>
+sub:ltcbtc:1min <socket.socket fd=74, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('172.31.142.115', 999), raddr=('40.74.91.183', 44924)>
+sub:ethbtc:1min <socket.socket fd=76, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('172.31.142.115', 999), raddr=('40.74.91.183', 44936)>
+sub:eosbtc:1min <socket.socket fd=77, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('172.31.142.115', 999), raddr=('40.74.91.183', 44934)>
+Exception ignored in: <module 'threading' from '/usr/local/python3/lib/python3.7/threading.py'>
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/threading.py", line 1273, in _shutdown
+    t.join()
+  File "/usr/local/python3/lib/python3.7/threading.py", line 1032, in join
+    self._wait_for_tstate_lock()
+  File "/usr/local/python3/lib/python3.7/threading.py", line 1048, in _wait_for_tstate_lock
+    elif lock.acquire(block, timeout):
+KeyboardInterrupt
